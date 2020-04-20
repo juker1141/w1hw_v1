@@ -12,7 +12,7 @@ body {
   height: 1px;
   border-top: solid #000 2px;
 }
-.header{
+header{
   a{
     text-decoration: none;
     h1{
@@ -31,7 +31,7 @@ body {
     display: block;
   }
 }
-.content{
+main{
   h2{
     font-size: 32px;
     line-height: 45px;
@@ -127,7 +127,7 @@ body {
 }
 .myskill{
   position: relative;
-  width: 62.5%;
+  max-width: 1200px;
   background-color: #415165;
   margin: 0 auto;
   padding-top: 24px;
@@ -141,15 +141,16 @@ body {
     display: block;
     height: 72%;
     /* 做一個超級長的寬 */
-    width: 200%;
+    width: 999999px;
     /* 垂直置中定位 */
     position: absolute;
     top:50%;
     transform: translateY(-50%);
     /* 推超級左邊 */
-    left: -50%;
+    left: -9999px;
     background-color: #96A9C4;
     z-index:-1;
+    overflow-x:hidden;
   }
   span{
     color: #ffffff;
@@ -247,7 +248,7 @@ body {
     }
   }
 }
-.footer{
+footer{
   color: #fff;
   background: #415165;
 }
