@@ -55,6 +55,7 @@ table {
 
 body {
   font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+  overflow-x: hidden;
 }
 
 .wrap {
@@ -230,7 +231,6 @@ main .link__bottom {
   left: -9999px;
   background-color: #96A9C4;
   z-index: -1;
-  overflow-x: hidden;
 }
 
 .myskill span {
